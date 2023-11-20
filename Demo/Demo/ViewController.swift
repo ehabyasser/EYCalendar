@@ -12,7 +12,7 @@ import SnapKit
 class ViewController: UIViewController {
     
     private let calendar:EYCalendar = {
-        let configurations = EYCalendarConfigration(isRTL: true, startDate: Date() , NoMonths: 24 , themeColor: .cyan, font: UIFont.systemFont(ofSize: 14, weight: .bold) , hideCalendarActionType: true)
+        let configurations = EYCalendarConfigration(startDate: Date() , NoMonths: 24 , themeColor: .blue, font: UIFont.systemFont(ofSize: 14, weight: .bold) , isLamicCalendarOnly: true)
         let calendar = EYCalendar(configuration: configurations)
         return calendar
     }()

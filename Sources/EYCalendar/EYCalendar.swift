@@ -25,6 +25,7 @@ open class EYCalendarConfigration{
         self.NoMonths = NoMonths
         self.themeColor = themeColor
         self.font = font
+        ThemeHelper.font = font
         self.hideCalendarActionType = hideCalendarActionType
         self.isLamicCalendarOnly = isLamicCalendarOnly
     }
